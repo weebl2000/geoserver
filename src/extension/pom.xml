@@ -112,11 +112,19 @@
     </profile>
     
     <profile>
+      <id>teiid</id>
+      <modules>
+        <module>teiid</module>
+      </modules>
+    </profile>
+    
+    <profile>
       <id>db2</id>
       <modules>
         <module>db2</module>
       </modules>
     </profile>
+    
 
     <profile>
       <id>imagemosaic-jdbc</id>
@@ -331,6 +339,7 @@
         <module>h2</module>
         <module>sqlserver</module>
         <module>oracle</module>
+        <module>teiid</module>
         <module>mysql</module>
         <module>db2</module>
         <module>imagemap</module>
@@ -373,6 +382,7 @@
         <module>sqlserver</module>
         <module>oracle</module>
         <module>mysql</module>
+        <module>teiid</module>
         <module>db2</module>
         <module>imagemap</module>
         <module>gdal</module>

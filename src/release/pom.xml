@@ -138,6 +138,11 @@
    <artifactId>gs-mysql</artifactId>
    <version>${project.version}</version>
   </dependency>
+<dependency>
+   <groupId>org.geoserver.extension</groupId>
+   <artifactId>gs-teiid</artifactId>
+   <version>${project.version}</version>
+  </dependency>
   <dependency>
    <groupId>org.geoserver.extension</groupId>
    <artifactId>gs-imagemap</artifactId>
